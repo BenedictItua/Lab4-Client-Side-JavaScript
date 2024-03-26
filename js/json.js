@@ -73,12 +73,13 @@ function showTopFlavors(jsonData) {
 }
 
 // Lab: Extend the JavaScript application built in class to include two more flavors of ice cream.
+// Lab: Extend the JavaScript application built in class to include two more flavors of ice cream.
 const newFlavor1 = {
     "name": "Strawberry Delight",
     "calories": 350,
     "type": "Gelato",
     "ingredients": ["Strawberry", "Milk", "Sugar"],
-    "image": "/images/strawberry-sprinkle.svg"
+    "image": "https://priyansht.github.io/24W-JavaScript-LH-Week11/images/ice-cream-xtra1.svg"
 };
 
 const newFlavor2 = {
@@ -86,7 +87,7 @@ const newFlavor2 = {
     "calories": 300,
     "type": "Ice Cream",
     "ingredients": ["Mint", "Chocolate Chips", "Milk"],
-    "image": "/images/mint-chocolate-chip.svg"
+    "image": "https://priyansht.github.io/24W-JavaScript-LH-Week11/images/ice-cream-xtra2.svg"
 };
 
 // Add the new flavors to the topFlavors array
