@@ -26,18 +26,18 @@
 
         
         {
-            "name": "Strawberry Delight",
+            "name": "Chocolate Delight",
             "calories": 450,
             "type": "Ice Cream",
-            "ingredients": ["Mint", "Chocolate Chips", "Milk"],
+            "ingredients": ["Mint", "Chocolate Chips", "Coffee"],
             "image": "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/images/ice-cream-xtra2.svg"
         },
 
         {
-            "name": "Mint Chocolate Chip",
+            "name": "Slime Candy Chip",
             "calories": 400,
-            "type": "Ice Cream",
-            "ingredients": ["Mint", "Chocolate Chips", "Milk"],
+            "type":"Slime-Ice Cream",
+            "ingredients": ["Slime", "Chocolate Chips", "Candy"],
             "image": "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/images/ice-cream-xtra1.svg"
         }
         
