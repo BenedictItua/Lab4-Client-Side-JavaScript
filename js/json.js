@@ -5,7 +5,7 @@ const section = document.querySelector("section");
 // STEP 3a: Create the asynchronous function populate()
 async function populate() {
     // STEP 4b: Store the URL of a JSON file in a variable
-    const url = "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/js/json.js";
+    const url = "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/js/i-scream.json";
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(url);
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
