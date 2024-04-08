@@ -5,7 +5,7 @@ const section = document.querySelector("section");
 // STEP 3a: Create the asynchronous function populate()
 async function populate() {
     // STEP 4b: Store the URL of a JSON file in a variable
-    const url = "https://priyansht.github.io/24W-JavaScript-LH-Week11/js/i-scream.json";
+    const url = "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/js/json.js";
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(url);
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
@@ -73,21 +73,20 @@ function showTopFlavors(jsonData) {
 }
 
 // Lab: Extend the JavaScript application built in class to include two more flavors of ice cream.
-// Lab: Extend the JavaScript application built in class to include two more flavors of ice cream.
 const newFlavor1 = {
     "name": "Strawberry Delight",
     "calories": 350,
     "type": "Gelato",
     "ingredients": ["Strawberry", "Milk", "Sugar"],
-    "image": "https://priyansht.github.io/24W-JavaScript-LH-Week11/images/ice-cream-xtra1.svg"
+    "image": "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/images/ice-cream-xtra1.svg"
 };
 
 const newFlavor2 = {
     "name": "Mint Chocolate Chip",
-    "calories": 300,
-    "type": "Ice Cream",
-    "ingredients": ["Mint", "Chocolate Chips", "Milk"],
-    "image": "https://priyansht.github.io/24W-JavaScript-LH-Week11/images/ice-cream-xtra2.svg"
+    "calories": 350,
+    "type": "Gelato",
+    "ingredients": ["Strawberry", "Milk", "Sugar"],
+    "image": "https://benedictitua.github.io/Lab4-Client-Side-JavaScript/images/ice-cream-xtra2.svg"
 };
 
 // Add the new flavors to the topFlavors array
